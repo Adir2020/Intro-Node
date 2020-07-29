@@ -39,7 +39,7 @@ const { uuid } = require("uuidv4");
      return response.status(400).json({ error: "Project not found" });
    }
 
-   const project = {
+   const project = { 
      id,
      title,
      owner,
